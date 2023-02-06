@@ -92,10 +92,10 @@ print(net)
 net.model.fit(
     train,
     batch_size = 32,
-    epochs = 40,
+    epochs = 60,
     verbose = 2,
     validation_data = test,
     validation_batch_size = 32,
 )
 
-# net.model.save("faces_model_save")
+net.model.save("faces_model_save")
